@@ -67,3 +67,11 @@ siteNav.querySelectorAll('a').forEach((link) => {
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+
+const backToTopLink = document.querySelector('.site-footer a[href="#top"]');
+backToTopLink?.addEventListener('click', (event) => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  history.replaceState(null, '', `${location.pathname}${location.search}`);
+});

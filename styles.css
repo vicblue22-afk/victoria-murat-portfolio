@@ -7,7 +7,7 @@
   --accent: #d7a224;
   --header-height: 74px;
   --page-gutter: clamp(1rem, 4vw, 4rem);
-  --display: "Fredericka the Great", Georgia, serif;
+  --display: "Limelight", Georgia, serif;
   --body: "Manrope", Arial, sans-serif;
 }
 
@@ -73,6 +73,12 @@ a { color: inherit; }
 .contact-section > p:not(.eyebrow) { max-width: 56ch; color: var(--muted); font-size: clamp(1rem, 1.6vw, 1.2rem); }
 .email-link { display: inline-flex; gap: .65rem; align-items: center; margin-top: 1.5rem; padding: .95rem 1.2rem; border: 1px solid var(--ink); background: var(--ink); color: white; text-decoration: none; font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; transition: background .2s ease, color .2s ease; }
 .email-link:hover, .email-link:focus-visible { background: transparent; color: var(--ink); }
+.contact-links { display: flex; align-items: center; gap: .85rem; margin-top: 1.5rem; }
+.contact-links .email-link { margin-top: 0; }
+.instagram-link { display: inline-grid; place-items: center; width: 49px; height: 49px; border: 1px solid var(--ink); color: var(--ink); text-decoration: none; transition: background .2s ease, color .2s ease; }
+.instagram-link svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.instagram-link .instagram-dot { fill: currentColor; stroke: none; }
+.instagram-link:hover, .instagram-link:focus-visible { background: var(--ink); color: white; }
 
 .site-footer { display: flex; justify-content: space-between; gap: 1rem; padding: 1.5rem var(--page-gutter); border-top: 1px solid var(--line); color: var(--muted); font-size: .75rem; }
 .site-footer p { margin: 0; }

@@ -20,4 +20,7 @@ EMAIL LINK
 mailto:victoriadmurat@gmail.com
 
 FONT
-Fredericka the Great and Manrope are loaded from Google Fonts. An internet connection is required for those exact webfonts to appear. Browser fallback fonts are included.
+Limelight and Manrope are loaded from Google Fonts. An internet connection is required for those exact webfonts to appear. Browser fallback fonts are included.
+
+INSTAGRAM
+https://www.instagram.com/vicmurat.art/
