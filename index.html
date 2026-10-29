@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The art portfolio of Victoria Murat.">
+  <title>Victoria Murat | Artist Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <a class="brand display-font" href="#top" aria-label="Victoria Murat, return to top">Victoria Murat</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Open navigation</span>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img src="assets/images/mountain-air.jpg" alt="A stylized mountain landscape with a meadow of colourful wildflowers." fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <h1 class="display-font" id="hero-title">Victoria Murat</h1>
+        <p>Artist / Portfolio</p>
+      </div>
+      <a class="hero-link" href="#work">View gallery <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="gallery-title">
+      <div class="section-heading gallery-heading">
+        <h2 class="display-font" id="gallery-title">Gallery</h2>
+        <div class="filters" role="group" aria-label="Filter artwork by category">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-filter="digital" aria-pressed="false">Digital</button>
+          <button class="filter-button" type="button" data-filter="watercolor" aria-pressed="false">Watercolor</button>
+          <button class="filter-button" type="button" data-filter="painting" aria-pressed="false">Painting</button>
+          <button class="filter-button" type="button" data-filter="character-illustration" aria-pressed="false">Character Illustration</button>
+        </div>
+      </div>
+
+      <div class="gallery" aria-live="polite">
+        <article class="art-card" data-category="digital character-illustration">
+          <button class="art-button" type="button" data-full="assets/images/warmth-and-shadow.jpg" data-title="Warmth and Shadow" data-meta="Digital · 2026" aria-label="Open Warmth and Shadow in image viewer">
+            <img src="assets/images/warmth-and-shadow.jpg" alt="A digital portrait with dramatic directional light and a deep teal background." loading="lazy">
+          </button>
+          <h3 class="display-font">Warmth and Shadow</h3>
+          <p>Digital · 2026</p>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <button class="art-button" type="button" data-full="assets/images/lunch-table.jpg" data-title="Lunch Table" data-meta="Painting · 2026" aria-label="Open Lunch Table in image viewer">
+            <img src="assets/images/lunch-table.jpg" alt="A colourful overhead still life featuring tomatoes, peppers, beans, condiments and tableware." loading="lazy">
+          </button>
+          <h3 class="display-font">Lunch Table</h3>
+          <p>Painting · 2026</p>
+        </article>
+
+        <article class="art-card" data-category="watercolor painting">
+          <button class="art-button" type="button" data-full="assets/images/november.jpg" data-title="November" data-meta="Watercolor · 2026" aria-label="Open November in image viewer">
+            <img src="assets/images/november.jpg" alt="A watercolor winter landscape with a small red building and dark trees." loading="lazy">
+          </button>
+          <h3 class="display-font">November</h3>
+          <p>Watercolor · 2026</p>
+        </article>
+
+        <article class="art-card" data-category="digital">
+          <button class="art-button" type="button" data-full="assets/images/mountain-air.jpg" data-title="Mountain Air" data-meta="Digital · 2026" aria-label="Open Mountain Air in image viewer">
+            <img src="assets/images/mountain-air.jpg" alt="A stylized mountain landscape with a meadow of colourful wildflowers." loading="lazy">
+          </button>
+          <h3 class="display-font">Mountain Air</h3>
+          <p>Digital · 2026</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="about-image">
+        <img src="assets/images/warmth-and-shadow.jpg" alt="Portrait artwork from the portfolio." loading="lazy">
+      </div>
+      <div class="about-copy">
+        <h2 class="display-font" id="about-title">About</h2>
+        <p class="about-intro">Victoria Murat is an emerging artist working across digital painting, watercolor and character illustration.</p>
+        <p>This area is ready for the final artist statement. It can briefly describe recurring subjects, materials, influences and the ideas connecting the portfolio.</p>
+        <div class="media-list">
+          <h3>Selected media</h3>
+          <p>Digital painting · Watercolor · Painting · Character illustration</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">Commissions · Exhibitions · Portfolio inquiries</p>
+      <h2 class="display-font" id="contact-title">Let’s connect</h2>
+      <p>For inquiries, please send an email and include a short description of what you have in mind.</p>
+      <a class="email-link" href="mailto:victoriadmurat@gmail.com">Email for inquiries <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Victoria Murat</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <dialog class="lightbox" aria-labelledby="lightbox-title">
+    <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+    <div class="lightbox-inner">
+      <img class="lightbox-image" src="" alt="">
+      <div class="lightbox-caption">
+        <h2 class="display-font" id="lightbox-title"></h2>
+        <p class="lightbox-meta"></p>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

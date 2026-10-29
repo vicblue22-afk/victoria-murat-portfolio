@@ -1,0 +1,37 @@
+Add a new artwork to my existing artist portfolio website.
+
+I will provide:
+- The current index.html file
+- The new artwork image
+- Artwork title
+- Category
+- Year
+- Medium, if applicable
+- Image description / alt text, if available
+
+Instructions:
+1. Do not redesign, reformat, or change any other part of the website.
+2. Add the new artwork to the existing Gallery using exactly the same HTML structure and styling as the existing artwork.
+3. Preserve the image's original aspect ratio so it works correctly in the masonry gallery.
+4. Make the artwork clickable using the existing lightbox functionality.
+5. Assign the artwork to the correct existing filter category:
+   - Digital
+   - Watercolor
+   - Painting
+   - Character Illustration
+6. If the artwork belongs to more than one existing category, assign all applicable categories.
+7. Do not create a new category unless I explicitly request it.
+8. Use the existing naming convention for image files and paths.
+9. Do not modify styles.css or script.js unless adding the artwork genuinely requires it.
+10. Do not change existing artwork entries.
+11. If any required information is missing or ambiguous, identify it rather than inventing information.
+12. Return the complete updated index.html, ready to replace the existing file.
+
+New artwork information:
+
+Title: [TITLE]
+Category: [CATEGORY]
+Year: [YEAR]
+Medium: [MEDIUM OR LEAVE BLANK]
+Alt text: [DESCRIPTION]
+Image filename: [FILENAME]
