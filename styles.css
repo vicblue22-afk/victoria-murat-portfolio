@@ -37,13 +37,13 @@ a { color: inherit; }
 .hero > img { object-fit: cover; }
 .hero-shade { background: linear-gradient(90deg, rgba(11,24,25,.68) 0%, rgba(11,24,25,.18) 55%, rgba(11,24,25,.05) 100%); }
 .hero-content { position: relative; z-index: 1; padding: 0 var(--page-gutter); }
-.hero h1 { max-width: 10ch; margin: 0 0 .8rem; font-size: clamp(4rem, 10vw, 9rem); line-height: .9; text-wrap: balance; }
+.hero h1 { max-width: 10ch; margin: 0 0 .8rem; font-size: clamp(3rem, 7vw, 6.5rem); line-height: .9; text-wrap: balance; }
 .hero-content p { margin: 0; font-size: clamp(.75rem, 1.3vw, .95rem); font-weight: 700; letter-spacing: .35em; text-transform: uppercase; }
 .hero-link { position: absolute; z-index: 2; left: var(--page-gutter); bottom: 2rem; text-decoration: none; font-size: .75rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
 
 .section { padding: clamp(4.5rem, 8vw, 8rem) var(--page-gutter); }
 .section-heading { margin-bottom: 2.2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
-.section h2 { margin: 0; font-size: clamp(3rem, 6vw, 5.7rem); line-height: 1; }
+.section h2 { margin: 0; font-size: clamp(2.5rem, 4.5vw, 4.5rem); line-height: 1; }
 .gallery-heading { display: flex; align-items: end; justify-content: space-between; gap: 2rem; }
 .filters { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .4rem 1.15rem; }
 .filter-button { border: 0; border-bottom: 2px solid transparent; padding: .35rem 0; background: transparent; color: var(--muted); cursor: pointer; text-transform: uppercase; font-size: .68rem; font-weight: 700; letter-spacing: .12em; }
